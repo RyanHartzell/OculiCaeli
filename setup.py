@@ -16,5 +16,5 @@ setup(
     author_email='rhartzell46@gmail.com',
     url='https://github.com/RyanHartzell/oculicaeli',
     license=license,
-    packages=find_packages(include=['src'])
+    packages=find_packages(include=['oculicaeli'])
 )
