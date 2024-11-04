@@ -2,7 +2,7 @@
 *The name means 'eyes of the sky' in Latin... as far as I know.*
 
 ## Ryan Hartzell - Robotics MS Student @ Colorado School of Mines
-## CSCI 598 - Advanced Data Science & CSCI 568 - Distributed Systems
+## CSCI 598 - Advanced Data Science
 
 ### Overview
 This will be my first attempt at a (at least sub-optimal) tasking framework for space-based SDA sensors. Specifically, I will be building utilities for computing various domain-relevant value (Q?) functions and cost (regret?) functions. The initial project will implement utilities for loading large amounts of TLE (orbital parameters) for all known space objects (RSOs), constructing density maps, arbitrary feature maps, and plotting/viz utilities. The initial algorithm is intended to be centralized as proof-of-concept, and an extension will be made to support decentralized tasking. This will include literature review and adaptation of the global optimization problem into a distributed (localized) optimization problem with periodic updates of the known "global" views of target space. Both the centralized case and decentralized case are intended to operate under the assumption of a dynamic, time-variant environment. In other words, the density of all spacecraft projected into the unit sphere about any given observer, as well as boolean access opportunity criteria, will change as time progresses.
